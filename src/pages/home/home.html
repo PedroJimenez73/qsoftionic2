@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar>
+     <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+    <ion-buttons end>
+      <button ion-button (click)="logout()">
+        <ion-icon name="log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+<div text-center>
+  <h2>Mapa de Procesos</h2>
+</div>
+<div text-center>
+  <button ion-button class="orange">Organización y su contexto</button>
+</div>
+<div text-center>
+  <button ion-button class="orange">Requisitos del cliente</button>
+</div>
+<div text-center>
+  <button ion-button class="orange">Necesidades y expectativas</button>
+</div>
+<div text-center>
+  <img src="assets/img/flechaVertical.png"/>
+</div>
+<div text-center>
+  <button ion-button class="red" (click)="goToPlanif()">Planificación</button>
+</div>
+<div text-center>
+  <button ion-button class="red">Apoyo y operación</button>
+</div>
+<div text-center>
+  <button ion-button class="red">Liderazgo</button>
+</div>
+<div text-center>
+  <button ion-button class="red">Mejora</button>
+</div>
+<div text-center>
+  <button ion-button class="red">Evaluación del desempeño</button>
+</div>
+<div text-center>
+  <img src="assets/img/flechaVertical.png"/>
+</div>
+<div text-center>
+  <button ion-button class="green">Satisfacción del cliente</button>
+</div>
+<div text-center>
+  <button ion-button class="green">Resultados del SCG</button>
+</div>
+<div text-center>
+  <button ion-button class="green">Productos y Servicios</button>
+</div>
+
+
+</ion-content>
